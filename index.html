@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HTML Form assignment</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--Build an HTML Form with Name, email and Message-->
+<body>
+    <form>
+        <fieldset>
+            <legend>Required Fields</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your preferred name"
+                />
+            </div>
+            <div>
+                <label for="location">Email:</label>
+                <input id="email"
+                  type="text"
+                  name="email"
+                  placeholder="Enter a valid email address"
+                />
+            </div>
+            <div>
+                <label for="form-message">Your message:</label>
+                <textarea
+                  id="form-message"
+                  name="mesage"
+                  autofocus
+                  required
+                  placeholder="Please enter your message"
+                ></textarea>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
